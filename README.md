@@ -4,10 +4,11 @@ A simple HTTP(S) client in Ruby to query any RESTful API.
 
 ---
 
-Will be Implemented Request methods :
+Implemented Request methods :
 
   * GET
   * POST
+  * PATCH
   * PUT
   * DELETE
 
@@ -17,7 +18,6 @@ Need to be implemented :
   * TRACE
   * OPTIONS
   * CONNECT
-  * PATCH
 
 ---
 
