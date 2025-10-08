@@ -1,0 +1,54 @@
+[
+  {
+    "label": "🧪 Run All Tests",
+    "command": "rspec",
+    "use_new_terminal": false
+  },
+  {
+    "label": "🧪 Run Current Test File",
+    "command": "rspec",
+    "args": ["${ZED_FILE}"],
+    "use_new_terminal": false
+  },
+  {
+    "label": "🧪 Run Fast Tests (no DB)",
+    "command": "rspec",
+    "args": ["--tag", "~db"],
+    "use_new_terminal": false
+  },
+  {
+    "label": "🔧 Rubocop Fix",
+    "command": "rubocop",
+    "args": ["-A", "${ZED_FILE}"],
+    "use_new_terminal": false
+  },
+  {
+    "label": "🔧 Rubocop Fix All",
+    "command": "rubocop",
+    "args": ["-A"],
+    "use_new_terminal": false
+  },
+  {
+    "label": "🔍 Rubocop Check",
+    "command": "rubocop",
+    "use_new_terminal": false
+  },
+  {
+    "label": "💎 Bundle Install",
+    "command": "bundle",
+    "args": ["install"],
+    "use_new_terminal": false
+  },
+  {
+    "label": "💎 Bundle Update",
+    "command": "bundle",
+    "args": ["update"],
+    "use_new_terminal": false
+  },
+  {
+    "label": "📊 Coverage Report",
+    "command": "rspec",
+    "env": { "COVERAGE": "true" },
+    "use_new_terminal": false
+  }
+]
