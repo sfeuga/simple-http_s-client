@@ -1,0 +1,7 @@
+AllCops:
+  NewCops: enable
+  ParserEngine: parser_prism
+  StringLiteralsFrozenByDefault: true
+
+Layout/LineLength:
+  Max: 80
