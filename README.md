@@ -1,6 +1,8 @@
 # Simple http(s) client
 
-[![Gem Version](https://badge.fury.io/rb/shc.svg)](https://badge.fury.io/rb/shc) A simple HTTP(S) client in Ruby to query any RESTful API.
+![Gem Total Downloads](https://img.shields.io/gem/dt/shc?cacheSeconds=300) [![Gem Version](https://badge.fury.io/rb/shc.svg)](https://badge.fury.io/rb/shc)
+
+## A simple HTTP(S) client in Ruby to query any RESTful API.
 
 ---
 
